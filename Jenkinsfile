@@ -3,8 +3,8 @@ pipeline {
 
     environment {
 
-        AWS_ACCESS_KEY_ID     = credentials('aws-secret-key-id')
-        AWS_SECRET_ACCESS_KEY = credentials('aws-secret-access-key')
+        AWS_ACCESS_KEY_ID     = credentials('bader-jinkins-id')
+        AWS_SECRET_ACCESS_KEY = credentials('bader-aws-secret-key')
 
         AWS_S3_BUCKET = "bader-bucket-dotnet"
         ARTIFACT_NAME = "hello-world.dll"
