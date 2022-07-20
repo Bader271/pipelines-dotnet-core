@@ -6,11 +6,11 @@ pipeline {
         AWS_ACCESS_KEY_ID     = credentials('aws-secret-key-id')
         AWS_SECRET_ACCESS_KEY = credentials('aws-secret-access-key')
 
-        AWS_S3_BUCKET = "jinkins-s3-bader"
+        AWS_S3_BUCKET = "bader-bucket-dotnet"
         ARTIFACT_NAME = "hello-world.dll"
-        AWS_EB_APP_NAME = "jinkins-started-app"
+        AWS_EB_APP_NAME = "bader-dotnet-app"
         AWS_EB_APP_VERSION = "${BUILD_ID}"
-        AWS_EB_ENVIRONMENT = "Jinkinsstartedapp-env"
+        AWS_EB_ENVIRONMENT = "Baderdotnetapp-env"
 
         SONAR_IP = "54.226.50.200"
         SONAR_TOKEN = "sqp_aa3cba40e3342d9cff9044e498766a66cf8cc0cc"
