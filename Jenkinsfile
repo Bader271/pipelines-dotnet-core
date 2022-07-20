@@ -13,7 +13,7 @@ pipeline {
         AWS_EB_ENVIRONMENT = "Baderdotnetapp-env"
 
         SONAR_IP = "54.226.50.200"
-        SONAR_TOKEN = "sqp_aa3cba40e3342d9cff9044e498766a66cf8cc0cc"
+        SONAR_TOKEN = "sqp_44447658583d93524b417f9c3e2c07f817163019"
 
     }
 
